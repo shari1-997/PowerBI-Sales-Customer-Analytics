@@ -4,6 +4,8 @@ An end-to-end Power BI portfolio project exploring sales performance, profitabil
 
 ## Dashboard Preview
 
+![Power BI Executive Overview](Dashboard_Screenshots/Executive%20Overview.png)
+
 The exported PDF contains all four report pages:
 - Executive Overview
 - Product Performance & Profitability
