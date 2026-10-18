@@ -62,21 +62,27 @@ The model uses customer, product, and sales-representative master tables related
 - Sales, customer, product, and regional analysis
 - Business-focused data visualization
 
+## Project Documentation
+
+- [Project Documentation](PROJECT_DOCUMENTATION.md) — project workflow, model, and implementation overview.
+- [Data Dictionary](DATA_DICTIONARY.md) — source fields and their meanings.
+- [Data Quality Report](DATA_QUALITY.md) — data issues identified and cleaning decisions.
+- [Business Insights](BUSINESS_INSIGHTS.md) — key findings from the dashboard.
+- [DAX Measures Reference](DAX_MEASURES.md) — reference formulas and explanations for important DAX measures.
+- [Setup Guide](SETUP_GUIDE.md) — instructions for opening the PBIX, configuring the source workbook, and refreshing the report.
+
 ## Project Files
 
-Recommended repository contents:
-- `Sales Customer Analytics Dashboard.pbix` — editable Power BI report
-- `PowerBI_Sales_Customer_Analytics_Raw_Data.xlsx` — source workbook
-- `Sales Customer Analytics Dashboard.pdf` — four-page report export
-- `Dashboard_Screenshots/` — individual report-page images
-- `PROJECT_DOCUMENTATION.md`
-- `DATA_DICTIONARY.md`
-- `DATA_QUALITY.md`
-- `BUSINESS_INSIGHTS.md`
+- `Sales Customer Analytics Dashboard.pbix` — editable Power BI report.
+- `PowerBI_Sales_Customer_Analytics_Raw_Data.xlsx` — source workbook.
+- `Sales Customer Analytics Dashboard.pdf` — four-page report export.
+- `Dashboard_Screenshots/` — individual report-page images.
 
 ## Important Notes
 
 This is a portfolio demonstration built from a prepared dataset. Treat customer names and other records as sample data, not verified real-world business information. The PDF is a static export; use the PBIX file to explore interactive behavior.
+
+DAX formulas in the reference document should be checked against the actual measures, table names, and columns in the PBIX before reuse. Time-intelligence examples require a valid date table if one is not already present in the model.
 
 ## Author
 
